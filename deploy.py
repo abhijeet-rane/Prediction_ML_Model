@@ -6,12 +6,12 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score
 
 # Load models and preprocessing objects
-random_forest = joblib.load("C:/Users/abhij/Desktop/ML Model/random_forest.pkl")
-decision_tree = joblib.load("C:/Users/abhij/Desktop/ML Model/decision_tree.pkl")
-logistic_regression = joblib.load("C:/Users/abhij/Desktop/ML Model/logistic_regression.pkl")
-scaler = joblib.load("C:/Users/abhij/Desktop/ML Model/scaler.pkl")
-label_encoder = joblib.load("C:/Users/abhij/Desktop/ML Model/label_encoder.pkl")
-feature_names = joblib.load("C:/Users/abhij/Desktop/ML Model/features.pkl")
+random_forest = joblib.load("random_forest.pkl")
+decision_tree = joblib.load("decision_tree.pkl")
+logistic_regression = joblib.load("logistic_regression.pkl")
+scaler = joblib.load("scaler.pkl")
+label_encoder = joblib.load("label_encoder.pkl")
+feature_names = joblib.load("features.pkl")
 
 # Title of the app
 st.title("Versatile Machine Learning Model Deployment")
