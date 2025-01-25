@@ -35,7 +35,7 @@ if uploaded_file:
     # Check if the target column ('churn') exists
     target_column = st.selectbox(
         "Please select the target column for accuracy evaluation:",
-        options=data.columns,
+        options=[''] + list(data.columns),
         help="Select the column containing the target labels.",
     )
 
