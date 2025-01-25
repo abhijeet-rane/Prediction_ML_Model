@@ -14,7 +14,7 @@ label_encoder = joblib.load("label_encoder.pkl")
 feature_names = joblib.load("features.pkl")
 
 # Title of the app
-st.title("Versatile Machine Learning Model Deployment")
+st.title("Machine Learning Model for Prediction and Accuracy Evaluation")
 st.write(
     "This app automatically aligns and preprocesses your data to predict or evaluate models based on your dataset."
 )
